@@ -35,19 +35,19 @@
     box-shadow: 0 0 10px 5px  yellow;
 }
 .comfykey[data-id="red"] {
-    top: 177px;
+    top: 207px;
     left: 372px;
 }
 .comfykey[data-id="yellow"] {
-    top: 290px;
-    left: 155px;
+    top: 185px;
+    left: 290px;
 }
 .comfykey[data-id="blue"] {
-    top: 131px;
+    top: 161px;
     left: 217px;
 }
 .comfykey[data-id="green"] {
-    top: 200px;
+    top: 230px;
     left: 450px;
 }
 
