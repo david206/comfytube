@@ -8,6 +8,7 @@ _comfy_keymap[39] = "green";
 jQuery.fn.comfy = function(handler_or_key, handler) {
     this.keyup(function(evt) {
 	var comfy_key_name = _comfy_keymap[evt.which];
+	alert(comfy_key_name);
 	if (typeof comfy_key_name != 'undefined') {
 	    evt.comfy_key = comfy_key_name
 	    if (typeof handler == 'undefined') {
